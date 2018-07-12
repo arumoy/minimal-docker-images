@@ -1,5 +1,5 @@
 FROM alpine:3.6
 
-RUN apk --update --no-cache add python3
+RUN apk --update --no-cache add nodejs
 
-CMD echo "Alpine based Python 3 image by Arumoy Chakraborty" && python3 -V
+CMD echo "Alpine based NodeJS image by Arumoy Chakraborty" && node -v
