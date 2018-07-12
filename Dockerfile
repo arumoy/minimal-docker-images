@@ -1,5 +1,5 @@
 FROM alpine:3.6
 
-RUN apk --update --no-cache add openjdk8-jre-base
+RUN apk --update --no-cache add python3
 
-CMD echo "Alpine based OpenJDK 8 Headless image by Arumoy Chakraborty" && java -version
+CMD echo "Alpine based Python 3 image by Arumoy Chakraborty" && python3 -V
